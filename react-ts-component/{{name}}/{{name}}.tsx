@@ -1,10 +1,14 @@
 import React from 'react';
+import { bem } from '@utils/formatters';
+import './{{name}}.scss';
 
-interface {{name}}Props {
+const cn = bem('{{name}}');
+
+interface Props {
 
 };
 
-const {{name}}: React.SFC<{{name}}Props> = (props) => {
+const {{name}}: React.SFC<Props> = (props) => {
     const {
 
     } = props;
