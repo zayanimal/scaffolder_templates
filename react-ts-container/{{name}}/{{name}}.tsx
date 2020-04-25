@@ -13,7 +13,7 @@ const mapDispatchToProps = {
 
 };
 
-type Props = ReturnType<tyeof mapStateToProps> & typeof mapDispatchToProps;
+type Props = ReturnType<typeof mapStateToProps> & typeof mapDispatchToProps;
 
 const {{name}}: React.SFC<Props> = (props) => {
     const {
