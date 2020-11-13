@@ -8,7 +8,7 @@ interface Props {
 
 };
 
-const {{name}}: React.SFC<Props> = (props) => {
+const {{name}}: React.FC<Props> = (props) => {
     const {
 
     } = props;
