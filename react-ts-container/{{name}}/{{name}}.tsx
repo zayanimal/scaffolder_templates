@@ -1,11 +1,12 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
+import { rootStateTypes } from '@system/store/roots';
 import { bem } from '@utils/formatters';
 import './{{name}}.scss';
 
 const cn = bem('{{name}}');
 
-const mapStateToProps = (state) => ({
+const mapStateToProps = (state: rootStateTypes) => ({
 
 });
 
