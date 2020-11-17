@@ -14,7 +14,7 @@ const {{name}}: React.FC<Props> = (props) => {
     } = props;
 
     return (
-        <div className="{{name}}"></div>
+        <div className={cn()}></div>
     );
 };
 

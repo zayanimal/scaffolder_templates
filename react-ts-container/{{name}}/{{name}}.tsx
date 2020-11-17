@@ -26,7 +26,7 @@ const {{name}}: React.FC<Props> = (props) => {
     }, []);
 
     return (
-        <div className="{{name}}"></div>
+        <div className={cn()}></div>
     );
 };
 
