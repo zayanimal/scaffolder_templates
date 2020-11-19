@@ -6,7 +6,7 @@ const cn = bem('{{name}}');
 
 interface Props {
 
-};
+}
 
 const {{name}}: React.FC<Props> = (props) => {
     const {
